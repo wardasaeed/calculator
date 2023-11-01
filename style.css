@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  section {
+    background-color: rgb(154, 199, 195);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 500px;
+    background-color: rgb(110, 170, 167);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .display {
+    background-color: rgb(60, 133, 138);
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 50px;
+    position: relative;
+  }
+
+  .display-1 {
+    opacity: 0.4;
+    font-size: 22px;
+    height: 20px;
+    overflow: hidden;
+  }
+
+  .temp-result {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    font-size: 20px;
+    opacity: 0.3;
+  }
+
+  .all_button {
+    color: rgb(216, 208, 208);
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  }
+
+   #operation{
+    color: rgb(12, 97, 97);
+    font-size:2rem;
+  }
+
+  #heading{
+    color: rgb(12, 97, 97);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: ce;
+  }
+
+  .button {
+    border: 0.5px solid rgba(92, 92, 92, 0.137);
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: rgb(37, 103, 117);
+  }
+  
+  .btn-0 {
+    grid-column: 1/3;
+  }
+  
